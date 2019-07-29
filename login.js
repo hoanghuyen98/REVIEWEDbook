@@ -21,7 +21,7 @@ btnSubmit.onclick = function(e) {
     var change = localStorage.getItem("username");
     var login = document.getElementById("log");
     
-    window.location.href = "page.html";
+    window.location.href = "index.html";
   }else{
     alert('email or password incorrect');
   }  
