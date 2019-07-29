@@ -1,0 +1,124 @@
+html, body, #root {
+    height: 100%;
+}
+
+#root {
+    
+    width: 100% ;
+    /* background-color: lightgreen; */
+    background-image: url("https://stmed.net/sites/default/files/coastline-wallpapers-27819-9311565.jpg");
+    
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#title {
+    width: 60%; 
+    height: 100%;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.tit {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.7px solid black;
+    color: #777777;
+    /* margin-bottom: 4px; */
+    position: relative;
+    font-size: 100%;
+}
+
+#search_bar {
+    width: 60%; 
+    height: 100%;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pic {
+    padding-right: 40px;
+}
+
+.most_read {
+    height: 500px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.header {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.header2 {
+    padding-left: 40px;
+    padding-top:40px;
+}
+
+#must_read {
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+#reviews {
+    padding-top:30px;
+    
+}
+
+
+#myInput {
+    background-image: url(); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+  
+  
